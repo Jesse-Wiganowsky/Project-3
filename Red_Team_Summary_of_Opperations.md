@@ -6,7 +6,6 @@ Samba smbd 3.X - 4.X (workgroup: WORKGROUP)# Red Team: Summary of Operations
 - Exploitation
 
 ### Exposed Services
-_TODO: Fill out the information below._
   
 Nmap scan results for each machine reveal the below services and OS details:
 
