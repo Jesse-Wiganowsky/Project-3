@@ -38,21 +38,19 @@ The following vulnerabilities were identified on each target:
     MySQL Server login contained the login credentials in wp-config.php in plain text.
     When logged in as Steven I was able to execute python code to escalate privileges to root.  
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
 ![](Images/Project3_flag1.png)
 
-```bash
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+![](Images/Flag2.png)
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
