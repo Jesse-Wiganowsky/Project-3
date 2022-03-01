@@ -44,7 +44,7 @@ The following vulnerabilities were identified on each target:
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
   - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
-![](Images/Project3_flag1.png)
+![](Images/Flag1.png)
 
     - **Exploit Used**
       - _TODO: Identify the exploit used_
