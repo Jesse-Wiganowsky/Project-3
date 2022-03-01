@@ -1,4 +1,4 @@
-# Red Team: Summary of Operations
+Samba smbd 3.X - 4.X (workgroup: WORKGROUP)# Red Team: Summary of Operations
 
 ## Table of Contents
 - Exposed Services
@@ -15,7 +15,7 @@ $ nmap -sV 192.168.1.110
 ```
 
 ![](Images/Project3_nmap.png)
-```
+
 
 This scan identifies the services below as potential points of entry:
 - Target 1
