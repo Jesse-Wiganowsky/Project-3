@@ -27,30 +27,24 @@ This scan identifies the services below as potential points of entry:
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - Vulnerability
-    open port 22 ssh
-  - Criticality 
-    high
-  - Vulnerabilities
-    Week passwords were exploited. Michael's password is michael and Steven's password was easily cracked by John the Ripper.
-    Identified users Michael and Steven.
-    Michael's password is identical to his user name.
-    MySQL Server login contained the login credentials in wp-config.php in plain text.
-    When logged in as Steven I was able to execute python code to escalate privileges to root.  
+  - Critical Vulnerability #1 Weak password was exploited, Michael's password is michael
+  - Critical Vulnerability #2 Weak password requirements, Steven's password was easily cracked by John the Ripper.
+  - Critical Vulnerability #3 MySQL Server login contained the login credentials in wp-config.php in plain text.
+  - Critical Vulnerability #4 When logged in as Steven I was able to execute python code to escalate privileges to root.  
 
 
 ### Exploitation
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: b9bbcb33e11b80be759c4e844862482d
 ![](Images/Flag1.png)
 
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+      - Veiwed Page Source Code in Browser
+
+  - `flag2.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
 ![](Images/Flag2.png)
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - Guessed Michael's password is the same as his username and ssh into the sever
+      - ssh michael@192.168.1.110 and used password: michael
