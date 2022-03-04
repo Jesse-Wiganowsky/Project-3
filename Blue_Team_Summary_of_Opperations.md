@@ -8,21 +8,32 @@
 - Suggestions for Going Further
 
 ### Network Topology
-_TODO: Fill out the information below._
 
 The following machines were identified on the network:
-- Name of VM 1
+- Kali
   - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Name of VM 2
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Etc.
+  - **Purpose**: Attacker / Penetration Testing Machine
+  - **IP Address**: 192.168.1.100
+- ELK
+  - **Operating System**: Ubuntu 18.04
+  - **Purpose**: Elasticsearch, Logstash, and Kabana
+  - **IP Address**: 192.168.1.100
+- Capstone 
+  - **Operating System**: Ubuntu 18.04
+  - **Purpose**: Vulnerable Web Server
+  - **IP Address**: 192.168.1.105
+- Hyper-V
+  - **Operating System**: Windows 
+  - **Purpose**: Gateway / Host
+  - **IP Address**: 192.168.1.1
+- Target 1
+  - **Operating System**: Debian GNU/Linux 8
+  - **Purpose**: Wordpress host
+  - **IP Address**: 192.168.1.1
+
+![](Images/Network.png)
 
 ### Description of Targets
-_TODO: Answer the questions below._
 
 The target of this attack was: `Target 1` (TODO: IP Address).
 
